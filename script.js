@@ -19,3 +19,12 @@
 // function as expected. There are many ways to accomplish this task, but you will need
 // to at minimum add listeners to each link and toggle the display of the tab contents.
 // Hint: display: none; hides an element, and display: block; will bring it
+
+let size = 0;
+
+function inflate(event) {
+  if (event.key == "UpArrow") {
+    size += size + 1;
+  }
+  else if (event.key == "DownArrow")
+}
