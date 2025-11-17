@@ -26,5 +26,7 @@ function inflate(event) {
   if (event.key == "UpArrow") {
     size += size + 1;
   }
-  else if (event.key == "DownArrow")
+  else if (event.key == "DownArrow") {
+    size -= size - 1;
+  }
 }
